@@ -127,4 +127,3 @@ The environment includes predefined script execution blocks configured inside `p
 ## 🎓 Acknowledgements
 
 This application was constructed as an extensive operational extension of the **NodeJS - The Complete Guide (incl. MVC, REST APIs, GraphQL)** curriculum by Academind (Maximilian Schwarzmüller), focusing heavily on building robust backend pipelines, securing user inputs, managing persistent server storage layers, and deploying best practices for server-side architecture.
-```
