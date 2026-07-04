@@ -200,7 +200,7 @@ exports.deleteProduct = (req, res, next) => {
 
       fileHelper.deleteFile(product.imageUrl);
       return Product.deleteOne({ _id: productId, userId: req.user._id })
-    })
+    }) 
     .then(() => {
       console.log('DESTROYED PRODUCT');
       res.status(200).json({message : 'deleted successfully'});
